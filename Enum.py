@@ -13,7 +13,7 @@ class Setor(Enum):
     
 
 class Funcionario:
-    def __init__(self, id: int, nome: str, idade: int, salario : double, setor: Setor, sexo: Sexo) -> None:
+    def __init__(self, id: int, nome: str, idade: int, salario : float, setor: Setor, sexo: Sexo) -> None:
         self.id = id
         self.nome = nome
         self.idade = idade
@@ -33,7 +33,9 @@ class Funcionario:
 
 os.system("cls || clear")
 
-funcionario1 = Funcionario(23,"Caio Lucas bdm",44,3000.0,)
+funcionario1 = Funcionario(2344,"Caio",23,300.0,Setor.RECURSOS_HUMANOS,Sexo.MASCULINO)
+
+print(funcionario1)
 
 
                        
